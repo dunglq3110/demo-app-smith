@@ -1,0 +1,1 @@
+UPDATE academia.company_notices SET "title"= '{{Table1.updatedRow.title}}', "message"= '{{Table1.updatedRow.message}}', "created_at"= '{{Table1.updatedRow.created_at}}', "file_data"= '{{Table1.updatedRow.file_data}}' WHERE "id"= {{Table1.updatedRow.id}};

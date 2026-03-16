@@ -1,0 +1,1 @@
+INSERT INTO academia.company_notices ("title","message","created_at","file_data") VALUES ('{{(Table1.newRow || {}).title}}','{{(Table1.newRow || {}).message}}','{{(Table1.newRow || {}).created_at}}','{{(Table1.newRow || {}).file_data}}')

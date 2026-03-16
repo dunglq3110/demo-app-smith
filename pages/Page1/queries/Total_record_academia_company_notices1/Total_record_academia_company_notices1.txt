@@ -1,0 +1,1 @@
+SELECT COUNT(*) from academia.company_notices where title ilike '%{{Table1.searchText}}%';
