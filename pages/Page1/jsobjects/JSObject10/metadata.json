@@ -14,6 +14,10 @@
       {
         "name": "myVar2",
         "value": "{}"
+      },
+      {
+        "name": "pageSize",
+        "value": "10"
       }
     ]
   }

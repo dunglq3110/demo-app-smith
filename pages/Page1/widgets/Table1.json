@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 18,
+  "bottomRow": 38,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -44,7 +44,7 @@
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
-  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndex": "",
   "defaultSelectedRowIndices": [
     0
   ],
@@ -81,9 +81,16 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
   "enableClientSideSearch": true,
   "endOfData": false,
   "flexVerticalAlignment": "start",
@@ -98,17 +105,18 @@
   "isVisibleSearch": true,
   "key": "voeeig23mz",
   "label": "Data",
-  "leftColumn": 12,
+  "leftColumn": 3,
   "minWidth": 450,
   "mobileBottomRow": 28,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 6,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onRowSelected": "{{JSObject10.myFun1()}}",
   "originalBottomRow": 39,
   "originalTopRow": 12,
   "parentColumnSpace": 19.8125,
-  "parentId": "0hng1l4hmn",
+  "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumns": {
     "created_at": {
@@ -269,8 +277,9 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 55,
   "searchKey": "",
+  "serverSidePaginationEnabled": false,
   "tableData": "{{Select_academia_company_notices1.data}}",
   "textSize": "0.875rem",
   "topRow": 0,
